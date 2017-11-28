@@ -1,0 +1,57 @@
+body {
+	background: #00FFFF;
+}
+
+td {
+	margin: auto;
+	width: 75px;
+	height: 75px;
+}
+
+table {
+	margin: auto;
+	border-spacing: 0px;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	background: white;
+}
+
+tbody {
+	background: white;
+}
+
+.container {
+	margin: auto;
+}
+
+.title {
+	text-align: center;
+}
+
+.snake-head {
+	background: blue;
+	border-radius: 50px;
+}
+
+.snake-body {
+	background: green;
+	border-radius: 50px;
+}
+
+.food {
+	background: red;
+	border-radius: 50px;
+	position: relative;
+}
+
+.no-active {
+	background: white;
+}
+
+.points {
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+	font-family: "Times New Roman", Georgia, Serif;
+}
